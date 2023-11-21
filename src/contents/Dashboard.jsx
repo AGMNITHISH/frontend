@@ -1,7 +1,14 @@
 import React from "react";
+import CreateIssue from "./CreateIssue";
 
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  return (
+    <div>
+      <div className="flex justify-end items-center ">
+        <CreateIssue />
+      </div>
+    </div>
+  );
 };
 
 export default Dashboard;
